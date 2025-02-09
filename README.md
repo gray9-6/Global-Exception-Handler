@@ -1,4 +1,5 @@
 # Global-Exception-Handler
 
 
-<img width="1207" alt="Screenshot 2025-02-09 at 12 19 28 PM" src="https://github.com/user-attachments/assets/d8fc0990-5299-43bb-95a3-aa0b96db0337" />
+
+<img width="1144" alt="Screenshot 2025-02-09 at 12 20 29 PM" src="https://github.com/user-attachments/assets/da08c031-0872-4ed9-ac6a-e4e9ff8cc323" />
