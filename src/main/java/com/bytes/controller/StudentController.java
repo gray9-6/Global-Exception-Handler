@@ -3,6 +3,7 @@ package com.bytes.controller;
 import com.bytes.dto.StudentRequestDto;
 import com.bytes.entity.Student;
 import com.bytes.service.StudentService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +18,7 @@ public class StudentController {
 
 
     @PostMapping
-    public ResponseEntity<Student> addStudent(@RequestBody StudentRequestDto studentRequestDto){
+    public ResponseEntity<Student> addStudent(@RequestBody @Valid StudentRequestDto studentRequestDto){
         return new ResponseEntity<>(studentService.addStudent(studentRequestDto), HttpStatus.OK);
     }
 
